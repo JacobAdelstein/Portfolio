@@ -18,7 +18,7 @@ function App() {
   
   <Navi />
   <Routes>
-    <Route path="/"  element= {
+    <Route path="/portfolio"  element= {
   <div className="App">
     
     
@@ -31,7 +31,7 @@ function App() {
     </div>
 }/>
 
-<Route path="blog"  element= {
+<Route path="/portfolio/blog"  element= {
   <div className="App">
     
     
@@ -43,7 +43,7 @@ function App() {
 }/>
 
 
-<Route path="blog/:blogID"  element= {
+<Route path="/portfolio/blog/:blogID"  element= {
 
     
 
