@@ -18,7 +18,7 @@ function App() {
   
   <Navi />
   <Routes>
-    <Route path="/portfolio"  element= {
+    <Route path="https://jacobadelstein.github.io/Portfolio"  element= {
   <div className="App">
     
     
