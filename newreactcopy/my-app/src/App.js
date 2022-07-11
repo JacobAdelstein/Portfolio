@@ -6,7 +6,7 @@ import { Skills, } from './components/common'
 import { Footer, } from './components/common'
 import { Posts, } from './components/common'
 import { Singleblog, } from './components/common'
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import {HashRouter, Routes, Route} from 'react-router-dom'
 import Blog from './pages/Blog';
 
 
@@ -14,11 +14,11 @@ import './App.css';
 function App() {
   return(
   
-  <BrowserRouter>
+  <HashRouter>
   
   <Navi />
   <Routes>
-    <Route path="/Portfolio"  element= {
+    <Route path="/"  element= {
   <div className="App">
     
     
@@ -47,7 +47,7 @@ function App() {
 
     
 
-    <Singleblog />
+    <HashRouter />
 
    
 }/>
