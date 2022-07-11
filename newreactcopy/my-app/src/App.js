@@ -18,7 +18,7 @@ function App() {
   
   <Navi />
   <Routes>
-    <Route path="https://jacobadelstein.github.io/Portfolio"  element= {
+    <Route path="/Portfolio"  element= {
   <div className="App">
     
     
@@ -31,7 +31,7 @@ function App() {
     </div>
 }/>
 
-<Route path="/portfolio/blog"  element= {
+<Route path="blog"  element= {
   <div className="App">
     
     
@@ -43,7 +43,7 @@ function App() {
 }/>
 
 
-<Route path="/portfolio/blog/:blogID"  element= {
+<Route path="blog/:blogID"  element= {
 
     
 
